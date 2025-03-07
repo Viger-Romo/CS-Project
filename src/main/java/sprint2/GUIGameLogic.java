@@ -1,16 +1,18 @@
 package sprint2;
 
-public class GUIGameLogic {
+class GUIGameLogic {
 
+    //Enums represents the two game mode: Simple and General and two players
     public enum GameMode { Simple, General}
     public enum Player { Blue, Red}
 
+    //Game Logic variables
     private int boardSize;
     private GameMode mode;
     private Player player;
     private char[][] board;
 
-
+    //Constructor to initialize the game logic with default values
     public GUIGameLogic(int boardSize, GameMode mode){
         this.boardSize = boardSize;
         this.mode = mode;
@@ -18,6 +20,7 @@ public class GUIGameLogic {
         this.board = new char[boardSize][boardSize];
     }
 
+    //Method to make move on the board
     public boolean makeMove(int row, int col, char letter) {
         if (row < 0 || row >= boardSize || col < 0 || col >= boardSize){
             return false;
@@ -37,7 +40,7 @@ public class GUIGameLogic {
 
     }
 
-
+    //Getters and Setters
     public int getBoardSize(){
         return boardSize;
     }
