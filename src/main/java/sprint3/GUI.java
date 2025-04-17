@@ -227,6 +227,7 @@ public class GUI extends JFrame {
             updateScoreLabel();
         }
     }
+
     /**
      * updateGameState Method updates the turn of who is supposed to go
      * sets the turnLabel to the current player
