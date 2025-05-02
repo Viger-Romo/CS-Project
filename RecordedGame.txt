@@ -1,0 +1,27 @@
+move,player,row,col,letter
+1,Blue,1,3,S
+2,Red,0,3,O
+3,Blue,2,3,O
+4,Red,3,3,S
+5,Red,1,2,O
+6,Blue,1,1,S
+7,Blue,2,2,O
+8,Blue,3,1,S
+9,Blue,2,1,O
+10,Blue,3,2,O
+11,Blue,0,1,S
+12,Red,3,0,S
+13,Blue,4,1,O
+14,Red,4,4,O
+15,Blue,4,2,S
+16,Red,4,0,S
+17,Red,2,0,O
+18,Blue,1,0,S
+19,Blue,0,0,O
+20,Red,2,4,S
+21,Blue,0,4,O
+22,Red,0,2,S
+23,Blue,1,4,S
+24,Red,4,3,O
+25,Blue,3,4,S
+Result: Blue Player
